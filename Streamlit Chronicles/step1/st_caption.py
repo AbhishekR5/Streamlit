@@ -28,3 +28,19 @@ import streamlit as st
 code = '''def hello():
     print("Hello, Streamlit!")'''
 st.code(code, language="python")
+
+import streamlit as st
+code = '''Is it a crown or boat?
+                        ii
+                      iiiiii
+WWw                 .iiiiiiii.                ...:
+ WWWWWWw          .iiiiiiiiiiii.         ........
+  WWWWWWWWWWw    iiiiiiiiiiiiiiii    ...........
+   WWWWWWWWWWWWWWwiiiiiiiiiiiiiiiii............
+    WWWWWWWWWWWWWWWWWWwiiiiiiiiiiiiii.........
+     WWWWWWWWWWWWWWWWWWWWWWwiiiiiiiiii.......
+      WWWWWWWWWWWWWWWWWWWWWWWWWWwiiiiiii....
+       WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWwiiii.
+          -MMMWWWWWWWWWWWWWWWWWWWWWWMMM-
+'''
+st.code(code, language=None)
