@@ -1,0 +1,22 @@
+Setting up a local development environment
+
+Install conda
+Create a new conda environment
+# conda create -n stenv python=3.9
+
+Activate the conda environment
+conda activate stenv
+
+Install the Streamlit library
+# pip install streamlit
+
+Launching the Streamlit demo app
+# streamlit hello
+
+Building your first Streamlit app
+# import streamlit as st
+# st.write('Hello world!')
+
+Fire up the command line terminal
+# streamlit run streamlit_app.py
+
